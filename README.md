@@ -5,6 +5,7 @@ Sometimes you don't want to use Docker, so it's rather dreary to run different b
 To use this script you need:
 1. Installed python3
 2. IGNITE_HOME variable to your Apache Ignite (Example: C:\Users\Andrew\Desktop\NewIgnite\apache-ignite-2.15.0-bin)
+
    You can use Powershell to set it in one line:
    ```[System.Environment]::SetEnvironmentVariable('IGNITE_HOME','C:\Users\Andrew\Desktop\NewIgnite\apache-ignite-2.15.0-bin', 'Machine')```
 
