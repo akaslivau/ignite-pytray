@@ -78,6 +78,7 @@ icon = pystray.Icon(name='any_icon', icon=image)
 
 icon.menu = (
     pystray.MenuItem("Baseline", baseline),
+    pystray.MenuItem("Activate", activate),
     pystray.MenuItem("Start cluster", cmd_start_cluster),
     pystray.MenuItem("Start node", cmd_start_node),
     pystray.MenuItem("________", None),
